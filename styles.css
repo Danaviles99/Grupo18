@@ -153,14 +153,14 @@ body {
     box-shadow:  0 0 10px rgba(59, 69, 77, 0.632);
     text-align: center;
     background-color: #edede9;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .paso{
      display: none; 
      font-size: 20px;
-     font-family: 'Lato', sans-serif;
+     font-family: 'Montserrat', sans-serif;
 }
 
 .paso > h2 {
@@ -184,7 +184,7 @@ body {
 .buttonForm {
     color: #fff;
     padding: 2px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .paso > button:hover
