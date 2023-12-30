@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;  
+    display: inline-block;
+    line-height: normal;
+    text-transform: none;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    margin-right: 5px;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+/* HEADER */
+.titulo{
+    font-size: medium;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+        background-color: #023047;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        width: 100%;
+        position: fixed;
+        z-index: 1000;
+        font-family: 'Montserrat', sans-serif;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #8ecae6;
+}
+body {
+    background-color:  #edede9;
+}
+
+/* CARDS CAMINATAS */
+#excursiones {
+    background-color: #edede9;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.excursionesTitulos{
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+}
+
+.card { 
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    overflow: hidden; 
+    margin: 10px; 
+    width: 300px; 
+    display: inline-block; 
+    height: 300px;
+    background-color: #f8f8f6;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.caminatas { 
+    max-width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.card:hover .overlay-text {
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    width: 100%;
+    height: 100%; 
+    color: #fffcf2; 
+    text-align:left;
+    padding:0%;
+    display: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.icon-list {
+    list-style-type: none; 
+    padding: 0;
+}
+
+/* FORM */
+
+.tituloForm{
+    text-align: center;
+    padding: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#form{
+    background-color: #edede9;
+}
+
+.form-proceso{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:  0 0 10px rgba(59, 69, 77, 0.632);
+    text-align: center;
+    background-color: #edede9;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.paso{
+     display: none; 
+     font-size: 20px;
+     font-family: 'Lato', sans-serif;
+}
+
+.paso > h2 {
+    background-color: #023047;
+    padding: 10px 8px;
+    border: none; 
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.paso > button
+{
+    
+    background-color: #023047;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonForm {
+    color: #fff;
+    padding: 2px;
+    font-family: 'Lato', sans-serif;
+}
+
+.paso > button:hover
+{
+    background-color: #0d425c;
+}
+
+/* CARDS BLOG */
+
+#blog {
+    background-color: #edede9;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.blogcard { 
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    overflow: hidden; 
+    margin: 10px; 
+    display: inline-block;
+    justify-content: space-between; 
+    background-color: #f8f8f6;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.card-title{
+    padding: 5px;
+    font-size: large;
+}
+
+.card-text{
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    text-align: justify;
+}
+
+.card-img-top{
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* MAPA */
+#map { height: 180px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+
